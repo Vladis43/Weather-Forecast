@@ -1,0 +1,53 @@
+[debug] [2018-06-18T06:32:17.646Z] ----------------------------------------------------------------------
+[debug] [2018-06-18T06:32:17.648Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\vladf\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase init hosting
+[debug] [2018-06-18T06:32:17.648Z] CLI Version:   3.18.6
+[debug] [2018-06-18T06:32:17.648Z] Platform:      win32
+[debug] [2018-06-18T06:32:17.648Z] Node Version:  v8.7.0
+[debug] [2018-06-18T06:32:17.649Z] Time:          Mon Jun 18 2018 09:32:17 GMT+0300 (Финляндия (лето))
+[debug] [2018-06-18T06:32:17.649Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-06-18T06:32:17.663Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase"]
+[debug] [2018-06-18T06:32:17.664Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\vladf\Desktop\ДИПЛОМ\pwa-react-weather-app
+
+Before we get started, keep in mind:
+
+  * You are initializing in an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2018-06-18T06:32:19.954Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-06-18T06:32:19.954Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ { refresh_token: '1/uB4R-hAf1KMVFhQdgNFnICM6C0JJgneQylwrOMMivIc',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Mon Jun 18 2018 09:32:19 GMT+0300 (Финляндия (лето))
+[debug] [2018-06-18T06:32:20.181Z] <<< HTTP RESPONSE 200
+[debug] [2018-06-18T06:32:20.185Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects  
+  
+ Mon Jun 18 2018 09:32:20 GMT+0300 (Финляндия (лето))
+[debug] [2018-06-18T06:32:21.093Z] <<< HTTP RESPONSE 200
+[info] i  .firebaserc already has a default project, skipping
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
